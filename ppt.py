@@ -57,7 +57,7 @@ elif st.session_state.slide == 3:
             <h2 style='font-size:1.5em; color:#1976d2;'>💡Solution Overview</h2>
             <div style='font-size:1.2em; color:#263238;'>
                 <span style='color:#1976d2;'>🤖</span> <b>Approach:</b> NLP to extract & summarize policy impact<br>
-                <span style='color:#1976d2;'>🧠</span> <b>Model:</b>Agent & LLM <br>
+                <span style='color:#1976d2;'>🧠</span> <b>Model:</b> Agent & LLM <br>
                 <span style='color:#1976d2;'>🛠️</span> <b>Tech Stack:</b> GenAI ,Backend: FastAPI, Frontend: React<br>
                 <span style='color:#1976d2;'>✨</span> <b>Innovation:</b> AI Powered ChatBot for Q&A on policy impacts
             </div>
