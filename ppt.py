@@ -16,6 +16,18 @@ def prev_slide():
     if st.session_state.slide > 1:
         st.session_state.slide -= 1
 
+# --- Render navigation buttons at the top ---
+st.markdown("<br>", unsafe_allow_html=True)  # Add space above the buttons
+col1, col2, col3, col4,col5,col6,col7 ,col8,col9= st.columns([1, 1, 1, 1,1,1,1,1,1])
+with col1:
+    prev_disabled = st.session_state.slide == 1
+    st.button("⬅️ Previous", on_click=prev_slide, disabled=prev_disabled)
+with col2:
+    st.markdown(f"<div style='text-align:center; font-size:1.2em; color:#1976d2;'>Slide {st.session_state.slide} of 8</div>", unsafe_allow_html=True)
+with col9:
+    next_disabled = st.session_state.slide == 8
+    st.button("Next ➡️", on_click=next_slide, disabled=next_disabled)
+
 # Title Slide
 if st.session_state.slide == 1:
     st.markdown(
@@ -57,7 +69,7 @@ elif st.session_state.slide == 3:
             <h2 style='font-size:1.5em; color:#1976d2;'>💡Solution Overview</h2>
             <div style='font-size:1.2em; color:#263238;'>
                 <span style='color:#1976d2;'>🤖</span> <b>Approach:</b> NLP to extract & summarize policy impact<br>
-                <span style='color:#1976d2;'>🧠</span> <b>Model:</b> Agent & LLM <br>
+                <span style='color:#1976d2;'>🧠</span> <b>Model:</b> Trained Agent & gpt4o<br>
                 <span style='color:#1976d2;'>🛠️</span> <b>Tech Stack:</b> GenAI ,Backend: FastAPI, Frontend: React<br>
                 <span style='color:#1976d2;'>✨</span> <b>Innovation:</b> AI Powered ChatBot for Q&A on policy impacts
             </div>
@@ -147,15 +159,3 @@ elif st.session_state.slide == 8:
         """,
         unsafe_allow_html=True
     )
-
-# Navigation Buttons
-st.markdown("<br>", unsafe_allow_html=True)  # Add space above the buttons
-col1, col2, col3 = st.columns([1, 1, 1])
-with col1:
-    prev_disabled = st.session_state.slide == 1
-    st.button("⬅️ Previous", on_click=prev_slide, disabled=prev_disabled)
-with col2:
-    st.markdown(f"<div style='text-align:center; font-size:1.2em; color:#1976d2;'>Slide {st.session_state.slide} of 8</div>", unsafe_allow_html=True)
-with col3:
-    next_disabled = st.session_state.slide == 8
-    st.button("Next ➡️", on_click=next_slide, disabled=next_disabled)
