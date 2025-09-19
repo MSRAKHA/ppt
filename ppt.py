@@ -24,7 +24,7 @@ if st.session_state.slide == 1:
             <h1 style='font-size:2em; color:#1565c0; margin-bottom:0.2em;'>📘 Public Services Policy Impact Summarizer</h1>
             <h2 style='font-size:1.5em; color:#263238; margin-top:0;'>Leveraging <span style='color:#1976d2;'>AI</span> to Simplify Policy Impact Analysis</h2>
             <div style='font-size:1.2em; color:#37474f; margin-top:1em;'>
-                <b style='color:#1976d2;'>Team Name:</b> Team12<br>
+                <b style='color:#1976d2;'>Team Name:</b> AI Fridays - Team12<br>
                 <b style='color:#1976d2;'>Members:</b> Sameer, Pranoy, Abhi, Pankaj, Rakha<br>
                 <b style='color:#1976d2;'>Event Date:</b> 19 Sept 2025
             </div>
