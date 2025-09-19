@@ -21,8 +21,7 @@ if st.session_state.slide == 1:
     st.markdown(
         """
         <div style='text-align:center; background:linear-gradient(90deg,#e3f2fd,#fff); padding:32px; border-radius:16px; box-shadow:0 2px 8px #bbb;'>
-            <h1 style='font-size:2em; color:#1565c0; margin-bottom:0.2em;'>📘 Public Services Policy Impact Summarizer</h1>
-            <h2 style='font-size:1.5em; color:#263238; margin-top:0;'>Leveraging <span style='color:#1976d2;'>AI</span> to Simplify Policy Impact Analysis</h2>
+            <h1 style='font-size:2em; color:#263238; margin-top:0.2em;'>Leveraging <span style='color:#1976d2;'>AI</span> to Simplify Policy Impact Analysis</h1>
             <div style='font-size:1.2em; color:#37474f; margin-top:1em;'>
                 <b style='color:#1976d2;'>Team Name:</b> AI Fridays - Team12<br>
                 <b style='color:#1976d2;'>Members:</b> Sameer, Pranoy, Anirudh, Pankaj, Rakha<br>
@@ -38,7 +37,7 @@ elif st.session_state.slide == 2:
     st.markdown(
         """
         <div style='background:#f5f5f5; padding:28px; border-radius:14px; box-shadow:0 2px 8px #ccc;'>
-            <h2 style='font-size:1.5em; color:#d84315;'>🔍 The Challenge in Policy Analysis</h2>
+            <h2 style='font-size:1.5em; color:#d84315;'>🔍 Introduction and Problem Context </h2>
             <div style='font-size:1.2em; color:#263238;'>
                 <span style='color:#1565c0;'>📄</span> Policymakers deal with <span style='color:#d84315;'>overwhelming volumes</span> of documents<br>
                 <span style='color:#1565c0;'>⏱️</span> Time-consuming to assess service and stakeholder impacts<br>
@@ -55,11 +54,11 @@ elif st.session_state.slide == 3:
     st.markdown(
         """
         <div style='background:#e3f2fd; padding:28px; border-radius:14px; box-shadow:0 2px 8px #bbb;'>
-            <h2 style='font-size:1.5em; color:#1976d2;'>💡 Our AI-Powered Solution</h2>
+            <h2 style='font-size:1.5em; color:#1976d2;'>💡Solution Overview</h2>
             <div style='font-size:1.2em; color:#263238;'>
                 <span style='color:#1976d2;'>🤖</span> <b>Approach:</b> NLP to extract & summarize policy impact<br>
                 <span style='color:#1976d2;'>🧠</span> <b>Model:</b> Trained Agent & gpt4o<br>
-                <span style='color:#1976d2;'>🛠️</span> <b>Tools:</b> Python, React, LLM<br>
+                <span style='color:#1976d2;'>🛠️</span> <b>Tech Stack:</b> GenAI ,Backend: FastAPI, Frontend: React<br>
                 <span style='color:#1976d2;'>✨</span> <b>Innovation:</b> AI Powered ChatBot for Q&A on policy impacts
             </div>
         </div>
@@ -72,7 +71,7 @@ elif st.session_state.slide == 4:
     st.markdown(
         """
         <div style='background:#fffde7; padding:28px; border-radius:14px; box-shadow:0 2px 8px #ccc;'>
-            <h2 style='font-size:1.5em; color:#fbc02d;'>🚀 Live Demo Flow</h2>
+            <h2 style='font-size:1.5em; color:#fbc02d;'>🚀 Live Demo</h2>
             <div style='font-size:1.2em; color:#263238;'>
                 <b style='color:#1976d2;'>1.</b> 📤 Upload policy PDFs<br>
                 <b style='color:#1976d2;'>2.</b> 🧠 AI agent analyze document<br>
@@ -108,7 +107,7 @@ elif st.session_state.slide == 6:
     st.markdown(
         """
         <div style='background:#f3e5f5; padding:28px; border-radius:14px; box-shadow:0 2px 8px #bbb;'>
-            <h2 style='font-size:1.5em; color:#8e24aa;'>✅ Summary & Future Directions</h2>
+            <h2 style='font-size:1.5em; color:#8e24aa;'>✅ Conclusion</h2>
             <div style='font-size:1.2em; color:#263238;'>
                 <span style='color:#8e24aa;'>🧠</span> Our summarizer simplifies complex policy analysis<br>
                 <span style='color:#8e24aa;'>🌐</span> <b>Future Enhancements:</b><br>
